@@ -17,7 +17,7 @@ type (
 
 func getInput() []byte {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage:", os.Args[0], "filename")
+		fmt.Println("Usage:", os.Args[0], "<filename>")
 		os.Exit(1)
 	}
 	filename := os.Args[1]
